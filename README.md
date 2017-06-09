@@ -35,7 +35,7 @@ c:\programs\postage\postage\bin\release> postage
 
 ## Building
 ```
-c:\programs> git clone --depth 1 https://github.com/OutsourcedGuru/postage
+c:\programs> git clone --depth 1 https://github.com/OutsourcedGuru/postage.git
 c:\programs> cd postage
 c:\programs\postage> start postage.sln
 # Verify that Production has been selected as the target and choose Build.  Everything in the BIN\release folder is
