@@ -22,6 +22,17 @@ The program is coded against the **.NET Framework 4.5.2** interface so if you do
 ## Testing
 I have laboriously tested every ounce between 0.0 and 14 ounces and it calculated things perfectly.  I was personally surprised to find that for years I've been putting too many stamps on envelopes so you would likely save some money if you are in a business which sends out mail on a frequent basis.
 
+## Running the executable
+I've included a production build for Windows, feel free to run this without compiling it.  If you attempt to build and that fails for whatever reason, note that you might have to `git fetch` again to re-pull the original files from the `bin\release` folder.
+
+```
+c:\programs> git clone --depth 1 https://github.com/OutsourcedGuru/postage
+c:\programs> cd postage\postage\bin\release
+c:\programs\postage\postage\bin\release> postage
+```
+
+![postage](https://user-images.githubusercontent.com/15971213/26986998-aa4c87b6-4cfe-11e7-9a30-fc75ae585186.jpg)
+
 ## Building
 ```
 c:\programs> git clone --depth 1 https://github.com/OutsourcedGuru/postage
